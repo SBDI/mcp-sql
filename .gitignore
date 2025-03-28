@@ -1,0 +1,23 @@
+# Virtual environments
+.venv
+.venv312
+
+# Environment variables and secrets
+.env
+
+# Database files
+database.db
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development
+.vs/
+.vscode/ 

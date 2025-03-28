@@ -1,0 +1,18 @@
+[project]
+name = "mcp-sql"
+version = "0.1.0"
+description = "SQL Agent with MCP and Groq"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docker>=7.1.0",
+    "groq>=0.20.0",
+    "loguru>=0.7.3",
+    "mcp>=1.3.0",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.4",
+]
+
+[dependency-groups]
+dev = ["types-docker>=7.1.0.20241229"]
