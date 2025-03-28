@@ -1,6 +1,5 @@
 # Virtual environments
 .venv
-.venv312
 
 # Environment variables and secrets
 .env
